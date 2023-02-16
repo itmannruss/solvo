@@ -1,0 +1,53 @@
+.btn {
+  display: block;
+  background: #d23669;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 9px 29px;
+  border: 1px solid transparent;
+  &-outline {
+    border: 1px solid #d23669;
+    background: transparent;
+    color: #d23669;
+  }
+  &_forgot {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #d23669;
+    background: white;
+    text-align: right;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 0;
+    &_right {
+      font-family: 'Ubuntu';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #d23669;
+      background: white;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      padding: 0;
+      text-align: left;
+    }
+  }
+  &_fullWidth {
+    text-align: center;
+    padding: 13px 0;
+    width: 100%;
+  }
+}
+
+.btn_register {
+  margin: 20px 0;
+}

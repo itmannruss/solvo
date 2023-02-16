@@ -1,0 +1,17 @@
+.login {
+  max-width: 396px;
+  padding: 30px;
+  margin-top: 135px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  &_input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.register__text {
+  color: black;
+}
