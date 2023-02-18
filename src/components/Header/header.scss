@@ -12,3 +12,14 @@
     }
   }
 }
+
+.header_navbar_avatar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header_navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
